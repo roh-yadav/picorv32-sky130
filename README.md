@@ -28,3 +28,11 @@ Full RTL-to-GDS physical design of PicoRV32 RISC-V processor using OpenLane on S
 - Fixed floorplan density errors by tuning FP_CORE_UTIL
 - Reduced fanout violations 93% using stronger CTS clock buffers
 - Critical path slack: 10.34ns MET at typical corner
+
+## Signoff Results
+
+- DRC: CLEAN — 0 violations
+- LVS: CLEAN — 11115 nets matched
+- Antenna: 83 pin violations, 71 net violations (known issue — fix with antenna diodes)
+- Setup: 0 violations
+- Hold: 0 violations
