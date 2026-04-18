@@ -36,3 +36,17 @@ Full RTL-to-GDS physical design of PicoRV32 RISC-V processor using OpenLane on S
 - Antenna: 83 pin violations, 71 net violations (known issue — fix with antenna diodes)
 - Setup: 0 violations
 - Hold: 0 violations
+
+## Chip Statistics
+
+| Parameter | Value |
+|-----------|-------|
+| Die Area | 1.0 mm² |
+| Total Cells | 103,169 |
+| Logic Cells | 9,112 |
+| Wire Length | 622 mm |
+| Vias | 81,318 |
+| Critical Path | 1.57 ns |
+| Clock Frequency | 50 MHz |
+| Total Power | ~19.3 mW |
+| Flow Runtime | 21 minutes |
