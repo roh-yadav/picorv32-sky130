@@ -1,5 +1,7 @@
 # PicoRV32 Physical Design on SKY130
 
+![PicoRV32 Layout](picorv32_layout_sky130.png)
+
 Full RTL-to-GDS physical design of PicoRV32 RISC-V processor using OpenLane on SKY130 130nm PDK.
 
 ## Results
