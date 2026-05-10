@@ -1,0 +1,16 @@
+{
+    "DESIGN_NAME": "picorv32",
+    "VERILOG_FILES": "dir::src/picorv32.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 20,
+    "DESIGN_IS_CORE": true,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 1000 1000",
+    "FP_CORE_UTIL": 40,
+    "PL_TARGET_DENSITY": 0.40,
+    "PDK": "sky130A",
+    "STD_CELL_LIB": "sky130_fd_sc_hd",
+    "MAX_FANOUT_CONSTRAINT": 16,
+    "CTS_MAX_CAP": 0.5,
+    "CTS_CLK_BUFFER_LIST": "sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbuf_16"
+}
